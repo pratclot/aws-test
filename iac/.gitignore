@@ -1,0 +1,3 @@
+.terraform
+jedi-secrets.zip
+*.tfstate*

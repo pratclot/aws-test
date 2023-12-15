@@ -1,0 +1,8 @@
+[
+  {
+    "EventBusName": "jedi-event-bus",
+    "DetailType": "custom-event",
+    "Source": "custom-source",
+    "Detail": "{\n      \"12345\": {\n        \"name\": \"Mace Windu\",\n        \"planet\": \"Haruun Kal\",\n        \"power_level\": 87\n      },\n      \"54832\": {\n        \"name\": \"Obi-Wan Kenobi\",\n        \"planet\": \"Stewjon\",\n        \"power_level\": 85\n      },\n      \"98721\": {\n        \"name\": \"Yoda\",\n        \"planet\": \"Dagobah\",\n        \"power_level\": 90\n      }\n    }"
+  }
+]

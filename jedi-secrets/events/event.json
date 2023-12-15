@@ -1,0 +1,29 @@
+[
+  {
+    "version": "0",
+    "id": "5d8e9b54-5aed-5b08-e595-82a895ea67cf",
+    "detail-type": "custom-event",
+    "source": "custom-source",
+    "account": "658011441014",
+    "time": "2023-12-14T15:08:01Z",
+    "region": "eu-central-1",
+    "resources": [],
+    "detail": {
+      "12345": {
+        "name": "Mace Windu",
+        "planet": "Haruun Kal",
+        "power_level": 87
+      },
+      "54832": {
+        "name": "Obi-Wan Kenobi",
+        "planet": "Stewjon",
+        "power_level": 85
+      },
+      "98721": {
+        "name": "Yoda",
+        "planet": "Dagobah",
+        "power_level": 90
+      }
+    }
+  }
+]

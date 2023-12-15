@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "jedi-secrets:HelloWorldFunction",
+            "invokeTarget": {
+                "target": "template",
+                "templatePath": "${workspaceFolder}/jedi-secrets/template.yaml",
+                "logicalId": "HelloWorldFunction",
+            },
+            "lambda": {
+                "payload": {
+                    "path": "${workspaceFolder}/jedi-secrets/events/event.json"
+                },
+                "environmentVariables": {
+                    "SECRET_NAME": "jedi-id",
+                    "LOG_GROUP_NAME": "/aws/lambda/jedi_lambda"
+                },
+            },
+            "sam": {
+                "containerBuild": true,
+            },
+        }
+    ]
+}
